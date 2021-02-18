@@ -9,7 +9,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 201 Created\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 61 \r\n\r\n" + response;
         return httpResponse;
@@ -19,7 +19,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 16 \r\n\r\n" + "Already Exists! Or Name is already been used!";
         return httpResponse;
@@ -30,7 +30,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 61 \r\n\r\n" + response;
         return httpResponse;
@@ -40,7 +40,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 16 \r\n\r\n" + "Could not Log in.. Try again";
         return httpResponse;
@@ -50,7 +50,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 61 \r\n\r\n" + response;
         return httpResponse;
@@ -59,7 +59,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 400 Bad Request\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 16 \r\n\r\n" + "Could add create Package.. Try again";
         return httpResponse;
@@ -68,7 +68,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 403 Forbidden\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "You are not allowed to add Packages/ Wrong Token...";
         return httpResponse;
@@ -78,7 +78,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 61 \r\n\r\n" + response;
         return httpResponse;
@@ -87,7 +87,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "User has no coins left OR no more Packages are available...";
         return httpResponse;
@@ -97,7 +97,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 0 \r\n\r\n";
         return httpResponse;
@@ -106,7 +106,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "Failed... No Token given...";
         return httpResponse;
@@ -115,7 +115,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The user has no Cards in his Deck...";
         return httpResponse;
@@ -125,7 +125,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 0 \r\n\r\n" + "User chosen Cards are now is Users Deck...";
         return httpResponse;
@@ -135,7 +135,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The wrong Token has been given, User does not have those cards...";
         return httpResponse;
@@ -145,7 +145,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "Users Input has not enough cards to be saved in Deck (4 Cards needed)...";
         return httpResponse;
@@ -155,7 +155,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 0 \r\n\r\n" + "The Token has been approved... This is the Users Data:\n";
         return httpResponse;
@@ -165,7 +165,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The wrong Token has been given...";
         return httpResponse;
@@ -175,7 +175,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 0 \r\n\r\n" + "Users Data has been edited and updated\n";
         return httpResponse;
@@ -185,7 +185,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "No Token is given... Try again";
         return httpResponse;
@@ -195,7 +195,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "This is the Users Stats: \n";
         return httpResponse;
@@ -205,7 +205,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "This is the Scoreboard: \n";
         return httpResponse;
@@ -215,7 +215,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "INVALID PATH... Try again";
         return httpResponse;
@@ -225,7 +225,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "Waiting for another Player... \n";
         return httpResponse;
@@ -234,7 +234,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n";
         return httpResponse;
@@ -243,7 +243,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "No Token is given... Try again\n";
         return httpResponse;
@@ -252,7 +252,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n";
         return httpResponse;
@@ -261,7 +261,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The Deal has been set and is now available for other Players...\n";
         return httpResponse;
@@ -271,7 +271,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The User has no Permission to trade this Card...\n";
         return httpResponse;
@@ -281,7 +281,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The Deal has now been deleted...\n";
         return httpResponse;
@@ -291,7 +291,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The Deal could not been deleted... User has no rights to Delete this Deal\n";
         return httpResponse;
@@ -301,7 +301,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "The Deal has been successful, the Users exchanged their Cards...\n";
         return httpResponse;
@@ -311,7 +311,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 202 OK\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 201 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "User has added the Bonus Coins from the TreasureBox into his account...\n";
         return httpResponse;
@@ -320,7 +320,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "User has not enough Wins for a TreasureBox...\n";
         return httpResponse;
@@ -329,7 +329,7 @@ public class ResponseHandler {
         String httpResponse = "HTTP/1.1 404 not Found\r\n"
                 + "Content-Type: text/html\r\n"
                 + "Accept-Ranges: bytes \r\n"
-                + "Server: daniel \r\n"
+                + "Server: Alec \r\n"
                 + "Status: 404 \r\n"
                 + "Content-Lenght: 32 \r\n\r\n" + "User has already taken the TreasureBox for the given WinsAmount...\n";
         return httpResponse;

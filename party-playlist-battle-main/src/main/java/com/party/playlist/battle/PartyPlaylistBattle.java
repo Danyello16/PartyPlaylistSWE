@@ -11,19 +11,14 @@ public class PartyPlaylistBattle {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Party Playlist Battle.. !");
-        System.out.println("TEST");
         serverListening();
     }
 
     private static void serverListening() {
         ServerSocket serverSocket;
-        System.out.println("TEST");
         try {
-            System.out.println("TEST");
-            serverSocket = new ServerSocket(10002);
-            System.out.println("TEST");
+            serverSocket = new ServerSocket(10001);
             System.out.println("Listening for connection on port 10001 ...");
-            System.out.println("TEST");
             while (true) {
                 Socket socket = serverSocket.accept();
                 handleRequest(socket);
