@@ -1,34 +1,31 @@
 package com.party.playlist.battle.domain;
 
-public class Player {
-    private final String playerName;
-    private Move playerMove;
+import java.util.List;
 
-    Player(String name) throws IllegalArgumentException{
-        if (name != null && !name.isEmpty())
-            this.playerName = name;
-        else {
-            throw new IllegalArgumentException("Player name cannot be null or empty");
-        }
+public class Player {
+    private  User playerName;
+    private List<Move> playerMove;
+
+
+    public Player(User playerName, List<Move> playerMove) {
+        this.playerName = playerName;
+        this.playerMove = playerMove;
     }
 
-    String getPlayerName(){
+    public User getPlayerName() {
         return playerName;
     }
 
-    Move getPlayerMove(){
+    public void setPlayerName(User playerName) {
+        this.playerName = playerName;
+    }
+
+    public List<Move> getPlayerMove() {
         return playerMove;
     }
 
-    void setPlayerMove(String move){
-        if(getPlayerMove() == null)
-            playerMove = Move.parseMove(move);
+    public void setPlayerMove(List<Move> playerMove) {
+        this.playerMove = playerMove;
     }
-
-    Boolean playerHasMadeMove(){
-        return getPlayerMove() != null;
-    }
-
-
 }
 

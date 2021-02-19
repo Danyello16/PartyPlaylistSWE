@@ -3,7 +3,8 @@ package com.party.playlist.battle.domain;
 public class User {
     private String Username;
     private String Password;
-    private Role role;
+
+    public User(){}
 
     public User(String username, String password) {
         Username = username;
