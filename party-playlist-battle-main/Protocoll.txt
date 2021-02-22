@@ -1,0 +1,11 @@
+Hallo, das Projekt ist eigentlich noch nicht fertig, ich habe so viel an das gearbeitet aber die Errors sind einfach unentlich :( Ich habe 2 Unit Tests, und 2 Curls funktionieren,
+an das bin ich gerade stehen geblieben und ich weiss einfach nicht wie ich die Curls machen soll, sodass sie funktionieren :( 
+
+Probleme hatte ich meistens beim Rest-Server und beim anbinden von DB, mit Github, und von einlegen von Users, diese Probleme hatte ich erledigt, habe noch errors beim Curls.
+Ich weiss einfach nicht wie ich weiter kommen kann, hab schon viel probiert, da es steht das wir 5 Curls brauchen. Wenn wir nicht verspatete Abgaben abgeben konnen, ist das dass beste 
+das ich machen kann, wahrscheinlich nicht genug um positiv zu sein, aber ich hoffe sehr das es vielleicht der Fall ist.
+
+Ich hoffe die Name vom Files sind intuitiv genug, nichts zu komplexes dort.
+
+Ich hatte den ganzen Abend probiert die Curls zu machen, hatte gedacht vielleicht schaffe ich jetzt, es ist 3:00 a.m. hier und ich habe morgen noch eine Nachprufung, ich hoffe diese Dokumentation
+reicht als Clip (wahrscheinlich nicht, aber ehrlich zu sein bin ich einfach frustriert das ich obwohl ziel Arbeit, das Projekt nicht richtig geschaft habe).
